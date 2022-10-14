@@ -13,7 +13,7 @@ alert(v);*/
 paralepiped(); */
 
 
-let a = prompt ("Введите значение стороны");
+/* let a = prompt ("Введите значение стороны");
 let b = prompt ("Введите значение другой стороны?");
 let c = prompt("Введите значение стороны");
 
@@ -22,4 +22,17 @@ function pramaugolnik () {
     alert (v);
 }
 
-pramaugolnik ();
+pramaugolnik (); */
+
+
+
+let s = prompt ("введи площадь основания");
+let h = prompt ("введи высоту");
+let z = 'Площадь призмы равна ';
+
+function prizma () {
+    let v = s * h;
+    alert (z + v);
+}
+
+prizma ();
