@@ -26,7 +26,7 @@ pramaugolnik (); */
 
 
 
-let s = prompt ("введи площадь основания");
+/*let s = prompt ("введи площадь основания");
 let h = prompt ("введи высоту");
 let z = 'Площадь призмы равна ';
 
@@ -35,4 +35,35 @@ function prizma () {
     alert (z + v);
 }
 
-prizma ();
+prizma (); */
+
+
+let price = prompt ("стоимость телефона");
+const nalog = 10;
+const balance = prompt("введите количество денег");
+function pokupka () {
+    if (price <= balance) {
+        alert ("покупка успешна завершина!");
+
+    } else {
+        alert ("недостаточно средст");
+    }
+
+    let summ = Number(price + nalog);
+
+    alert("вы потратили " + summ);
+    
+}
+
+pokupka();
+
+
+/*const price = 100;
+const nalog = 10;
+const acssesuart = 50;
+let balance = prompt ("ваш баланс?");
+
+function pokupka () {
+    let summ = i;
+    for ()
+}*/
